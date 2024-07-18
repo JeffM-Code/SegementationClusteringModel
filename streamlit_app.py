@@ -22,7 +22,7 @@ for column in data.columns:
 
 data = data.fillna(data.mean(numeric_only=True))
 
-st.title('Segmentation Clustering Model')
+st.title('Customer Segmentation Clustering')
 
 data_percentage = st.slider('Percentage of data to use for clustering', 10, 100, 50)
 plot_dimension = st.slider('Number of dimensions for PCA plot', 2, 3, 2)

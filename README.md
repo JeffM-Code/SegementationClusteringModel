@@ -30,7 +30,7 @@ Silhouette Score: 0.24390746038884387
 Davies-Bouldin Index: 1.5884676523144565
 
 ```
-<br><br>
+<br>
 
 * Silhouette score above 0.5 is good, however with a score of 0.24 clusters data points may likely overlap each other.<br><br>
 * The lower the Davies-Bouldin index (closest to 0), the better, but with a slightly high score of 1.58, there may be some poor cluster separation.
