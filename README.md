@@ -7,13 +7,13 @@ The sliders change the % of data applied onto model, and the visual representati
 ### Example:<br><br>
 <img src="example.png" alt="example" width="650"/><br><br>
 
-#### Model analysis:<br><br>
+### Model analysis:<br><br>
 ```
 k = 3
 kmeans = KMeans(n_clusters=k, random_state=42)
 
 ```
-<br><br>
+<br>
 
 The number of clusters selected affects the mode's performance, as they directly influence the n_clusters model hyperparameter; too few clusters, model over-fits data, insufficiently capturing the inherent structure of the data, leading to poor predictive capability on new data, and conversely too many clusters lead to under-fitting, which leads poor capability to capture the underlying patterns and structure as the model will be too simplistic, making the model's performance on training and test data very poor as well.<br><br>
 
