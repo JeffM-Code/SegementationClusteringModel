@@ -7,7 +7,7 @@ The sliders change the % of data applied onto model, and the visual representati
 ### Example:<br><br>
 <img src="example.png" alt="example" width="650"/><br><br>
 
-### Model analysis:<br><br>
+### Model Analysis:<br><br>
 ```
 k = 3
 kmeans = KMeans(n_clusters=k, random_state=42)
